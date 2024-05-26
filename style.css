@@ -1,0 +1,111 @@
+* {
+	font-family: sbf;
+}
+
+body {
+	background-color: black;
+}
+
+@font-face 
+{
+	font-family: sbf;
+	src: url("Squares Bold Free.otf");
+}
+
+.table {
+  display: table;
+  table-layout: fixed;
+  margin: 20px auto 25px auto;
+  border: 1px solid white;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  width: 50px;
+  height:50px;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: transform 300ms;
+  position: relative;
+}
+
+.table-cell .ghost {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.table-cell[data-color="1"], table-cell[data-color="1"] .ghost {
+  background: #7B9CE5; /*blue*/
+}
+
+.table-cell[data-color="2"], table-cell[data-color="2"] .ghost {
+  background: #CC99FF; /*purple*/
+}
+
+.table-cell[data-color="3"], table-cell[data-color="3"] .ghost {
+  background: #9CE57B; /*green*/
+}
+
+.table-cell.empty {
+  background: #fff !important;
+}
+
+h1 {
+  font-size: 2.25em;	
+  font-weight: bold;
+  text-align: center;
+  margin-top: -10px;	
+  background-image: linear-gradient(45deg, #7B9CE5, #7B9CE5, #7B9CE5, #7B9CE5, #7B9CE5, #CC99FF, #9CE57B, #9CE57B, #9CE57B, #9CE57B, #9CE57B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px white;  
+  /*filter: drop-shadow(2px 2px 5px #777);*/
+}
+
+h3 {
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: -15px;
+  color: white;  
+}
+
+p1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+#time {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+#timer {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 5px;
+  color: white;
+}
+
+.score {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 5px;
+  text-align: right;
+  -webkit-text-stroke: 0.25px white;
+}
+
+#b, #p, #g {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 5px;
+}
