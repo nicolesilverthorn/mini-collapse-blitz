@@ -113,11 +113,11 @@ p1 {
   }
   
   #counter {
-	  bottom: 110px;
 	  display: flex;	  
 	  text-align: center;
       justify-content: center;
       align-items: center;
+	  top: 75%;
   }
   
   .score {
