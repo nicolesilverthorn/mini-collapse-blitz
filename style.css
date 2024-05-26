@@ -113,10 +113,8 @@ p1 {
   }
   
   #counter {
-	  left: 50%;
-      -webkit-transform: translateX(-50%);
-	  -moz-transform: translateX(-50%);
-	  transform: translateX(-50%);
+	  display: block;
+	  margin: 0 auto;
 	  bottom: 110px;
   }
   
