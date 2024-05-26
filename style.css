@@ -113,7 +113,7 @@ p1 {
   }
   
   #counter {
-	  /*display: flex;*/	  
+	  display: flex;	  
 	  text-align: center;
       justify-content: center;
       align-items: center;
