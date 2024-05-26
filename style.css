@@ -113,9 +113,11 @@ p1 {
   }
   
   #counter {
-	  display: block;
-	  margin: 0 auto;
-	  bottom: 110px;
+	  margin-bottom: 110px;
+	  text-align: center;
+	  display: flex;
+      justify-content: center;
+      align-items: center;
   }
   
   .score {
