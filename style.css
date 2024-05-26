@@ -105,14 +105,17 @@ p1 {
 
 @media screen and (max-width: 520px) {
   h1 {
-	  font-size: 1.25em;
+	  font-size: 30px;
+	  margin-bottom: 5px;
   }
   
   #counter {
-	  margin-top: 450px;
+	  position: absolute;
+	  bottom: 0;
   }
   
   .score {
-	  margin-top: 480px;
+	  position: absolute;
+      bottom: 0;
   }
 }
