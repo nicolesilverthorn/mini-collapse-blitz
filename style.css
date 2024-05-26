@@ -115,13 +115,11 @@ p1 {
   #counter {
 	  /*display: flex;	  
 	  text-align: center;
-      justify-content: center;
-      align-items: center;*/
+      justify-content: center;*/
+      align-items: center;
 	  margin: 0;
       position: absolute;
-      top: 85%;
-      left: 50%;
-      transform: translate(-85%, -50%);
+      top: 80%;
   }
   
   .score {
