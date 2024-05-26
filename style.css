@@ -113,9 +113,9 @@ p1 {
   }
   
   #counter {
-	  /*display: flex;	  
+	  /*display: flex;*/	  
 	  text-align: center;
-      justify-content: center;*/
+      justify-content: center;
       align-items: center;
 	  margin: 0;
       position: absolute;
