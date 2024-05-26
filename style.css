@@ -114,9 +114,9 @@ p1 {
   
   #counter {
 	  margin-bottom: 110px;
+	  /*display: flex;	  
 	  text-align: center;
-	  display: flex;
-      justify-content: center;
+      justify-content: center;*/
       align-items: center;
   }
   
