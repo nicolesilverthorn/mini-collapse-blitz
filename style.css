@@ -66,7 +66,6 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 0.5px white;  
-  /*filter: drop-shadow(2px 2px 5px #777);*/
 }
 
 h3 {
@@ -82,13 +81,7 @@ p1 {
   color: white;
 }
 
-#time {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-}
-
-#timer {
+#counter {
   font-size: 25px;
   font-weight: bold;
   margin-left: 5px;
@@ -108,4 +101,18 @@ p1 {
   font-size: 20px;
   font-weight: bold;
   margin-left: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+	  font-size: 1.25em;
+  }
+  
+  #counter {
+	  margin-top: 450px;
+  }
+  
+  .score {
+	  margin-top: 480px;
+  }
 }
