@@ -111,12 +111,13 @@ p1 {
   }
   
   p1 {
-	  margin-top: 15px;
+	  margin-top: 25px;
   }
   
   #counter {
 	  position: absolute;
 	  bottom: 175px;
+	  left: 0;
 	  text-align: center;
   }
   
