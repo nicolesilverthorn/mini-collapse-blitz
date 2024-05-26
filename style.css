@@ -113,13 +113,15 @@ p1 {
   }
   
   #counter {
-	  position: absolute;
+	  left: 50%;
+      -webkit-transform: translateX(-50%);
+	  -moz-transform: translateX(-50%);
+	  transform: translateX(-50%);
 	  bottom: 110px;
-	  left: 115px;
   }
   
   .score {
 	  position: absolute;
-      bottom: 5px;
+      bottom: 10px;
   }
 }
