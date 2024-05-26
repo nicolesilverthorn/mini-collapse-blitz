@@ -108,16 +108,14 @@ p1 {
 	  background-image: linear-gradient(45deg, #7B9CE5, #7B9CE5, #7B9CE5, #7B9CE5, #CC99FF, #CC99FF, #CC99FF, #9CE57B, #9CE57B, #9CE57B, #9CE57B);
 	  font-size: 26px;
 	  margin-top: 20px;
-  }
-  
-  p1 {
-	  margin-top: 25px;
+	  margin-bottom: 20px;
   }
   
   #counter {
 	  position: absolute;
 	  bottom: 180px;
-	  left: 50%;
+	  width: 50%;
+	  margin: auto;
   }
   
   .score {
